@@ -1,0 +1,14 @@
+D:\Restaurant\Restaurant.Application\bin\Debug\netcoreapp3.1\Restaurant.Common.dll
+D:\Restaurant\Restaurant.Application\bin\Debug\netcoreapp3.1\Restaurant.Domain.dll
+D:\Restaurant\Restaurant.Application\obj\Debug\netcoreapp3.1\Restaurant.Application.csprojAssemblyReference.cache
+D:\Restaurant\Restaurant.Application\obj\Debug\netcoreapp3.1\Restaurant.Application.AssemblyInfoInputs.cache
+D:\Restaurant\Restaurant.Application\obj\Debug\netcoreapp3.1\Restaurant.Application.AssemblyInfo.cs
+D:\Restaurant\Restaurant.Application\bin\Debug\netcoreapp3.1\Restaurant.Application.deps.json
+D:\Restaurant\Restaurant.Application\bin\Debug\netcoreapp3.1\Restaurant.Application.dll
+D:\Restaurant\Restaurant.Application\bin\Debug\netcoreapp3.1\Restaurant.Application.pdb
+D:\Restaurant\Restaurant.Application\bin\Debug\netcoreapp3.1\Restaurant.Common.pdb
+D:\Restaurant\Restaurant.Application\bin\Debug\netcoreapp3.1\Restaurant.Domain.pdb
+D:\Restaurant\Restaurant.Application\obj\Debug\netcoreapp3.1\Restaurant.Application.csproj.CoreCompileInputs.cache
+D:\Restaurant\Restaurant.Application\obj\Debug\netcoreapp3.1\Restaurant.Application.csproj.CopyComplete
+D:\Restaurant\Restaurant.Application\obj\Debug\netcoreapp3.1\Restaurant.Application.dll
+D:\Restaurant\Restaurant.Application\obj\Debug\netcoreapp3.1\Restaurant.Application.pdb

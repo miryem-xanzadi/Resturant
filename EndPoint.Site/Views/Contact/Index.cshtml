@@ -1,0 +1,80 @@
+﻿@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
+@model EndPoint.Site.Models.Contact.ContactModel
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<!--
+   CONTACT US  start
+   ============================= -->
+
+
+
+
+
+<div class="leave-comment">
+    <h5>CONTACT US</h5>
+ 
+    <form class="form-horizontal" role="form" asp-controller="Contact" asp-action="Index" method="post">
+        <div class="form-group">
+            <label for="inputname" class="col-sm-2 control-label">YOUR NAME (REQUIRED)</label>
+            <div class="col-sm-10">
+
+                @Html.EditorFor(m => m.Name, new { htmlAttributes = new { @class = "form-control", placeholder = "YOUR NAME" } })
+                <span asp-validation-for="Name" class="text-danger"></span>
+
+            </div>
+        </div>	<!-- End of /.form-group -->
+        <div class="form-group">
+            <label for="inputEmail" class="col-sm-2 control-label">YOUR EMAIL (REQUIRED)</label>
+            <div class="col-sm-10">
+
+                @Html.EditorFor(m => m.Email, new { htmlAttributes = new { @class = "form-control", placeholder = "EMAIL" } })
+                <span asp-validation-for="Email" class="text-danger"></span>
+            </div>
+        </div>	<!-- End of /.form-group -->
+        <div class="form-group">
+            <label for="inputEmail" class="col-sm-2 control-label">SUBJECT</label>
+            <div class="col-sm-10">
+
+                @Html.EditorFor(m => m.Subject, new { htmlAttributes = new { @class = "form-control", placeholder = "SUBJECT" } })
+            </div>
+        </div>	<!-- End of /.form-group -->
+        <div class="form-group">
+            <label for="inputmessage" class="col-sm-2 control-label">YOUR MESSAGE</label>
+            <div class="col-sm-10">
+
+                @Html.EditorFor(m => m.Message, new { htmlAttributes = new { @class = "form-control", @rows = 3, placeholder = "MESSAGE" } })
+            </div>
+        </div>	<!-- End of /.form-group -->
+
+        <div class="form-group">
+            <div class="col-sm-offset-2 col-sm-10">
+
+                <button type="submit" class="btn btn-success">Send</button>
+            </div>
+        </div>	<!-- End of /.form-group -->
+        <div class="alert alert-success" style="display: @ViewBag.State;">
+            <strong>Success!</strong>  @ViewBag.SuccessfulMessage
+        </div>
+        <div class="alert alert-danger" style="display: @ViewBag.StateErr;">
+            <strong>Error!</strong>  @ViewBag.ErrorMessage
+        </div>
+        
+        @* } *@
+    </form>
+        <!--</form>-->	<!-- End of /.form-horizontal -->
+    </div>	<!-- End of /.leave comments -->
+
+    @section Scripts
+{
+        <script>
+        var element = document.getElementById("contact_tab");
+        element.classList.add("active");
+            
+
+       
+
+        </script>
+
+    }

@@ -1,0 +1,33 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center">
+    <!-- SLIDER Start
+    ================================================== -->
+
+
+    <section id="slider-area">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div id="slider" class="nivoSlider">
+
+                        <img src="~/SiteTempelete/Layout/images/slider.jpg" alt="" />
+                        <img src="~/SiteTempelete/Layout/images/slider1.jpg" alt="" />
+                        <img src="~/SiteTempelete/Layout/images/slider2.jpg" alt="" />
+                    </div>	<!-- End of /.nivoslider -->
+                </div>	<!-- End of /.col-md-12 -->
+            </div>	<!-- End of /.row -->
+        </div>	<!-- End of /.container -->
+    </section> <!-- End of Section -->
+
+</div>
+@section Scripts
+{
+<script>
+    var element = document.getElementById("home_tab");
+    element.classList.add("active");
+</script>
+    
+}
